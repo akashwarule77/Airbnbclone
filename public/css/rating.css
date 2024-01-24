@@ -4,6 +4,16 @@
   padding: 0;
   box-sizing: border-box;
 }
+.edit-btn {
+    background-color: #fe434d !important;
+    border: none !important;
+    color: white !important;
+    width: 80px;
+   /* Adjust padding as needed */
+    font-size: 16px; 
+      /* Adjust font size as needed */
+}
+
 
 
  .starability-result {
@@ -65,14 +75,13 @@
     margin-right: 5px; /* Adjust the margin between stars on small screens */
   }
 } 
- 
+ /* Adjust starability styling for smaller screens */
 /* Adjust starability styling for smaller screens */
 @media (max-width: 767px) {
   .starability-result {
     display: inline-block;
     max-width: 100%; /* Set the maximum width to 100% */
     overflow: hidden; /* Hide overflowing content */
-    box-sizing: border-box; /* Include padding and border in the element's total width and height */
   }
 }
 
