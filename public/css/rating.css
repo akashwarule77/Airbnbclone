@@ -54,18 +54,27 @@
       background-size: 30px auto;
     }
   }
-/* Adjustments for mobile devices */
+
+/* Adjust starability for smaller screens */
 @media (max-width: 767px) {
-  .card {
-    flex: 0 0 70%; /* Ensure each card takes the full width on small screens */
-    margin-right: 0px; /* Remove margin for spacing between cards on small screens */
+  .starability-result {
+    width: 100%; /* Make sure the stars take the full width on small screens */
   }
 
+  .starability-facets label {
+    margin-right: 5px; /* Adjust the margin between stars on small screens */
+  }
+} 
+ 
+/* Adjust starability styling for smaller screens */
+@media (max-width: 767px) {
   .starability-result {
-    margin-top: 10px; /* Adjust top margin for the star rating on small screens */
+    display: inline-block;
+    max-width: 100%; /* Set the maximum width to 100% */
+    overflow: hidden; /* Hide overflowing content */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
   }
 }
-
 
   
   .starability-slot {
