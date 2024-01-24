@@ -1,11 +1,9 @@
-
-  body {
+body {
     font-family: 'Plus Jakarta Sans', sans-serif !important;
     display: flex !important;
     flex-direction: column !important;
     min-height: 100vh;
 }
-
 .container {
     flex: 1;
 }
@@ -15,46 +13,38 @@
     background-color: white !important;
 }
 
-/* Responsive Navigation */
-@media screen and (max-width: 768px) {
-    .navbar {
-        height: auto;
-    }
-}
-
-.fa-people-roof {
+.fa-people-roof{
     font-size: 2rem !important;
     color: #fe434d;
 }
 
-.nav-link {
+.nav-link{
     color: #222222 !important;
 }
-
 .f-info-links a {
     text-decoration: none !important;
     color: #222222 !important;
 }
-
 .f-info-links a:hover {
     text-decoration: underline !important;
+     
 }
 
-.f-info-links,
-.f-info-socials,
-.f-info-brand {
+.f-info-links,.f-info-socials,.f-info-brand {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-}
 
+}
+ 
 .f-info-socials i {
     margin-right: 1rem;
     font-size: 1.4rem;
 }
 
-.f-info {
+
+.f-info{
     text-align: center;
     height: 8rem;
     display: flex;
@@ -64,40 +54,58 @@
     align-items: space-evenly;
 }
 
-/* Responsive Listing Card */
-.listing-card {
+.listing-card{
     border: none !important;
     margin-bottom: 2rem;
+     
 }
 
-/* Responsive Images */
-.show-img {
-    height: auto;
-    width: 100%;
-}
-
-.original_img img {
-    height: auto;
-    width: 100%;
+.card-img-top{
     border-radius: 1rem !important;
+ 
+}
+.row a{
+    text-decoration: none !important;
+}
+.card-img-overlay {
+    opacity: 0;
+}
+.card-img-overlay:hover{
+    opacity: 0.2;
+    background-color: white;
 }
 
-/* Responsive Buttons */
-.add-btn,
-.edit-btn {
+.add-btn {
     background-color: #fe434d !important;
     border: none !important;
 }
-
-/* Responsive Footer */
-.btns {
+.edit-btn {
+    background-color: #fe434d !important;
+    border: none !important;
+    color: white !important;
+}
+.show-img {
+    height: 30vh;
+}
+.btns{
     display: flex;
     margin-right: 10px !important;
 }
-
-.show-card {
+.show-card{
     padding-left: 0;
     padding-right: 0;
 }
+
+.original_img img{
+    height: 250px;
+    width: 300px;
+    border-radius: 1rem !important;
+}
+
+ 
+ 
+ 
+ 
  
 
+ 
