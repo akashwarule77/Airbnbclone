@@ -73,7 +73,7 @@
 /* Responsive Images */
 .show-img {
     height: auto;
-    max-width: 100%;
+    width: 100%;
 }
 
 .original_img img {
@@ -99,9 +99,5 @@
     padding-left: 0;
     padding-right: 0;
 }
+ 
 
-@media screen and (max-width: 768px) {
-    .show-card {
-        padding: 0 15px;
-    }
-}

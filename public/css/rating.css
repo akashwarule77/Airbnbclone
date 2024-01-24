@@ -57,7 +57,7 @@
 /* Adjustments for mobile devices */
 @media (max-width: 767px) {
   .card {
-    flex: 0 0 100%; /* Ensure each card takes the full width on small screens */
+    flex: 0 0 50%; /* Ensure each card takes the full width on small screens */
     margin-right: 0; /* Remove margin for spacing between cards on small screens */
   }
 
