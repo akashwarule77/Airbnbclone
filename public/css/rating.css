@@ -1,4 +1,12 @@
-.starability-result {
+ /* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+ .starability-result {
     position: relative;
     width: 150px;
     height: 30px;
@@ -46,6 +54,19 @@
       background-size: 30px auto;
     }
   }
+/* Adjustments for mobile devices */
+@media (max-width: 767px) {
+  .card {
+    flex: 0 0 100%; /* Ensure each card takes the full width on small screens */
+    margin-right: 0; /* Remove margin for spacing between cards on small screens */
+  }
+
+  .starability-result {
+    margin-top: 10px; /* Adjust top margin for the star rating on small screens */
+  }
+}
+
+
   
   .starability-slot {
     display: block;

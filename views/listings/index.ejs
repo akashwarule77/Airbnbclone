@@ -1,7 +1,7 @@
 <% layout("/layouts/boilerplate") %>  
 <body>
    
-     <style>
+     <!-- <style>
       #filters {
         margin-top: 1rem;
         display: flex;
@@ -33,7 +33,60 @@
         display: flex;
         align-items: center;
       }
-     </style>
+     </style> -->
+
+     <style>
+      #filters {
+        margin-top: 1rem;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+      }
+    
+      .filter {
+        text-align: center;
+        margin: 0.5rem;
+        padding: 0.5rem;
+        opacity: 0.7;
+      }
+    
+      .filter:hover {
+        opacity: 1;
+        cursor: pointer;
+      }
+    
+      .filter p {
+        font-size: 0.8rem;
+      }
+    
+      .tax-info {
+        display: none;
+      }
+    
+      .tax-toggle {
+        border: 1px solid black;
+        border-radius: 0.5rem;
+        height: 3.5rem;
+        padding: 1rem;
+        margin: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    
+      /* Media Query for smaller screens */
+      @media only screen and (max-width: 600px) {
+        .filter {
+          width: 100%;
+        }
+    
+        .tax-toggle {
+          margin: 1rem 0;
+        }
+      }
+    </style>
+    
 
 
   <div id="filters">
